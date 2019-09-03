@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: DaemonSet
 metadata:
-  name: device-plugin-daemonset
+  name: device-plugin
   namespace: kube-system
 spec:
   updateStrategy:
@@ -29,7 +29,7 @@ spec:
       # See https://kubernetes.io/docs/tasks/administer-cluster/guaranteed-scheduling-critical-addon-pods/
       priorityClassName: "system-node-critical"
       containers:
-      - image: nvidia/device-plugin:v1.0
+      - image: laputaq/device-plugin:v1.0
         name: device-plugin-ctr
         securityContext:
           allowPrivilegeEscalation: false

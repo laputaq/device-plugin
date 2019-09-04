@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: vgpu-1
+  name: vgpu-demo
 spec:
   schedulerName: vgpu-scheduler
   restartPolicy: OnFailure

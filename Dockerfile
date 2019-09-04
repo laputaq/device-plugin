@@ -26,4 +26,4 @@ ENV NVIDIA_DRIVER_CAPABILITIES=utility
 
 COPY --from=build /go/bin/device-plugin /usr/bin/device-plugin
 
-ENTRYPOINT ["device-plugin"]
+CMD ["device-plugin"]

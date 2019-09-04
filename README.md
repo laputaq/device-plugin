@@ -1,4 +1,4 @@
-# VMware device plugin for Kubernetes to support vGPU Resources
+# VMware device plugin for Kubernetes
 
 ## About
 
@@ -14,10 +14,11 @@ This following work builds on NVIDIA's official implementation of the [NVIDIA de
 The list of prerequisites for running the Vmware device plugin is described below:
 * NVIDIA drivers ~= 361.93
 * Docker >= 19.03 (see [why](https://github.com/NVIDIA/nvidia-docker#quickstart))
-* nvidia-docker >= 2.1.0 (see how to [install](https://github.com/NVIDIA/nvidia-docker) and it's [prerequisites](https://github.com/nvidia/nvidia-docker/wiki/Installation-(Native-GPU-Support)#prerequisites))
+* nvidia-docker >= 2.1.0 (see how to [install](https://github.com/NVIDIA/nvidia-docker#quickstart) and it's [prerequisites](https://github.com/nvidia/nvidia-docker/wiki/Installation-(Native-GPU-Support)#prerequisites))
 * nvidia-container-runtime >= 3.1.0 (see how to [install](https://github.com/NVIDIA/nvidia-container-runtime#installation))
 * docker configured with nvidia as the [default runtime](https://github.com/NVIDIA/nvidia-docker/wiki/Advanced-topics#default-runtime).
-* Kubernetes version >= 1.10
+* VMware vGPU Scheduler >= 1.0 (see how to [install](https://github.com/laputaq/vgpu-scheduler#quick-start) and it's [rerequisites](https://github.com/laputaq/vgpu-scheduler#prerequisites))
+* Kubernetes version >= 1.15
 
 ## Quick Start
 

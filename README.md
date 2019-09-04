@@ -1,8 +1,5 @@
 # VMware device plugin for Kubernetes to support vGPU Resources
 
-## Statement
-The following work builds on the [NVIDIA device plugin](https://github.com/NVIDIA/k8s-device-plugin), and I just did some adaptive work, so the usage and documentation are roughly the same.
-
 ## About
 
 The VMware device plugin for Kubernetes is a Daemonset that allows you to automatically:
@@ -10,7 +7,7 @@ The VMware device plugin for Kubernetes is a Daemonset that allows you to automa
 - Keep track of the health of your vGPUs
 - Run vGPU enabled containers in your Kubernetes cluster.
 
-This repository based on NVIDIA's official implementation of the [NVIDIA device plugin](https://github.com/NVIDIA/k8s-device-plugin) for Kubernetes.
+This following work builds on NVIDIA's official implementation of the [NVIDIA device plugin](https://github.com/NVIDIA/k8s-device-plugin) for Kubernetes, so the usage and documentation are roughly the same.
 
 ## Prerequisites
 
